@@ -31,7 +31,7 @@ export const formatteGuess = (word: string, guess: string) => {
 }
 
 export const gameNumber = () => {
-    const gameStartDate = new Date('2024-01-17T14:00:00.000Z')
+    const gameStartDate = new Date('2024-01-20T14:00:00.000Z')
     const currentDate = new Date()
     const timeDifference = currentDate.getTime() - gameStartDate.getTime()
     const daysPassed = Math.floor(timeDifference / (24 * 60 * 60 * 1000))
